@@ -1,0 +1,12 @@
+<div 
+    class='tasking' 
+    [ngClass]="{reminder : task.reminder}"
+    (dblclick)="onToggle(task)">
+    <div class='content'>
+        <div class='space-between'>
+            <h3>{{task.text}}</h3>
+            <p (click)="onDelete(task)">X</p>
+        </div>
+        <p>{{task.day}}</p>
+    </div>
+</div>

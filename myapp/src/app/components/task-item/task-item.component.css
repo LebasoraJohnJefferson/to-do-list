@@ -1,0 +1,28 @@
+.tasking{
+    background-color: rgb(59, 55, 55);
+    width:100%;
+    display:flex;
+    width:100%;
+    padding: 10px 0 ;
+}
+
+
+.reminder{
+    border-left:3px solid green;
+}
+
+p{
+    cursor: pointer;
+}
+
+.content{
+    display:flex;
+    width:95%;
+    flex-direction: column;
+    margin:auto;
+}
+
+.space-between{
+    display:flex;
+    justify-content: space-between;
+}
