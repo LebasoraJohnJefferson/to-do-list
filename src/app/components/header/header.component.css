@@ -1,0 +1,14 @@
+.header-container{
+    display: flex;
+    justify-content: space-around;
+    width:450px;
+    align-items: center;
+    box-shadow: 0px 0px 5px white;
+}
+
+h1{
+    color:white;
+    font-weight: bold;
+    text-decoration: underline;
+    margin:15px 0;  
+}
